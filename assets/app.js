@@ -4,8 +4,10 @@ const counter = document.querySelector("#counter");
 
 let count = 0;
 
+const trollTXT = "Rick Roll";
 
 
+// Click function
 function OnClick() {
 
     var body = document.body,
@@ -17,6 +19,12 @@ function OnClick() {
     var width = Math.max( body.scrollWidth, body.offsetWidth, 
         html.clientWidth, html.scrollWidth, html.offsetWidth );
 
+
+        if (count === 9) {
+            button.innerHTML = trollTXT;
+        } else {
+            button.innerHTML = "Click Me";
+        }
 
 
     console.log(height + ' ' + ' ' + width);
@@ -35,6 +43,8 @@ function OnClick() {
     // alert('Try again');
 }
 
+
+// Function for loading the game right
 function Setup() {
 
     var body = document.body,
