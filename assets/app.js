@@ -20,7 +20,7 @@ function OnClick() {
         html.clientWidth, html.scrollWidth, html.offsetWidth );
 
 
-        if (count === 9) {
+        if (count == 10) {
             button.innerHTML = trollTXT;
         } else {
             button.innerHTML = "Click Me";
