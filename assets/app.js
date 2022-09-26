@@ -22,6 +22,8 @@ function OnClick() {
 
         if (count == 10) {
             button.innerHTML = trollTXT;
+            window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ","_self")
+
         } else {
             button.innerHTML = "Click Me";
         }
