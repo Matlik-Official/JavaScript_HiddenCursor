@@ -4,8 +4,6 @@ const counter = document.querySelector("#counter");
 
 let count = 0;
 
-const trollTXT = "Rick Roll";
-
 
 // Click function
 function OnClick() {
@@ -19,14 +17,7 @@ function OnClick() {
     var width = Math.max( body.scrollWidth, body.offsetWidth, 
         html.clientWidth, html.scrollWidth, html.offsetWidth );
 
-
-        if (count == 10) {
-            button.innerHTML = trollTXT;
-            window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ","_self")
-
-        } else {
-            button.innerHTML = "Click Me";
-        }
+    button.innerHTML = "Click Me";
 
 
     console.log(height + ' ' + ' ' + width);
